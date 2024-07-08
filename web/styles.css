@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+
+.background__body{
+    height: 968px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: darkolivegreen;
+}
+
+.whole__space{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    height: 600px;
+}
+
+section {
+    width: 400px;
+    background-color: seagreen;
+    height: 100%;
+    border-radius: 20px;
+    transition: 500ms;
+}
+
+section:hover {
+    background-color: darkgreen;
+}
+
+aside {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    border-radius: 10px;
+    background-color: olive;
+    transition: 500ms;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    background: darkgreen;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    transition: 500ms;
+}
+
+button:hover{
+    color: black;
+    background-color: forestgreen;
+}
+
+#box-1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#info-1, #info-2{
+    height: 280px;
+    border-radius: 20px;
+    transition: 800ms;
+}
+
+#info-1, #info-2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.info__title{
+    padding: 0.5em 0em;
+    font-size: 34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info__sub{
+    display: flex;
+    justify-content: center;
+}
+
+.info__sub span{
+    display: inline-block;
+    width: 40%;
+}
+
+.info__other{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+
+.info-fromdb{
+    list-style-type: none;
+}
+
+.leftside-column, .rightside-column{
+    border: 1px solid black;
+    width: 45%;
+    border-radius: 10px;
+}
+
+#info-1:hover, #info-2:hover{
+    background-color:olivedrab;
+}
+
+.rule__breaker{
+    border: 1px solid black;
+}
+
+.post-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0em;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.post-input, .post-select{
+    border: 2px solid black;
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+    text-indent: 20px;
+}
+
+.requisition-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid orange;
+    height: 60px;
+}
+
+.inactive-status{
+    background-color: navajowhite;
+}
